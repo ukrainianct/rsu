@@ -39,10 +39,8 @@
 .navbar-custom.top-nav-collapse .hide-on-main {
 	display: inline-block;
 }
-
-
-.top-nav-collapse .container {
-	background-color: rgba(19, 26, 16, 0.85);
+.navbar-custom ul {
+	background-color: transparent;
 }
 
 @media (max-width: 1050px) {
@@ -72,13 +70,23 @@
 .color-yellow{
 	color: yellow;
 }
-/*
-#front-donate{
-	background-color: yellow;
-	color: #1F82B5;
-	font-weight: bold;
+
+
+#sponsor {
+	background: #625f5f;
+	color: #fff;
 }
-#front-events{
-	color: yellow;
+
+.address{
 	font-weight: bold;
-}*/
+	font-size: 16px;
+}
+
+#action2 {
+	background-color: #625f5f;
+	color: #fff;
+}
+#contact2 {
+	max-height: 300px;
+}
+
