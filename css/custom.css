@@ -171,3 +171,10 @@
 .brand-heading-btn-ukr{
 	margin: 30px 0px 0px 0px;
 }
+.btn-donate{
+	color: yellow;
+	font-weight: 700;
+}
+.h-no-transform {
+    text-transform: none;
+}
