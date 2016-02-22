@@ -59,6 +59,17 @@
 	}
 }
 
+@media (max-width: 468px) {
+	.navbar-custom {
+		background-color: rgba(19, 26, 16, 0.7);
+	}
+	.navbar-custom.top-nav-collapse {
+		background-color: rgba(19, 26, 16, 0.7);
+	}
+	.intro .intro-body {
+			padding: 50px 0;
+	}
+}
 
 /*-----------------------------------------------------------------*/
 .color-yellow{
@@ -120,20 +131,31 @@
 #progress {
 	background-color: #000;
 }
-#bgndVideo1, #bgndVideo2{
+/*
+.project-video{
 	overflow:hidden;
 }
-#bgndVideo1 > iframe, #bgndVideo2 > iframe {
+*/
+/*
+.project-video > iframe {
  	width: 100%; 
  	max-height: 450px;
 	padding: 20px
 }
+*/
+/*
+.project-video > img {
+	padding: 20px
+}
+*/
+/*
 .video-donate {
 	position:absolute;
 	bottom: 50px;
 	right: 50px;
 	opacity: 0.7;
 }
+*/
 
 @media(max-width:768px) {
 	#bgndVideo1 > div, #bgndVideo2 > div{
