@@ -131,6 +131,7 @@
 #progress {
 	background-color: #000;
 }
+
 /*
 .project-video{
 	overflow:hidden;
@@ -199,4 +200,15 @@
 }
 .h-no-transform {
     text-transform: none;
+}
+
+.about-padding{
+	padding: 0px 30px 0px 30px;
+}
+.mission-padding{
+	padding: 0px 70px 50px 70px;
+}
+.project-more-btn{
+	color: #00a8ff;
+	border: 1px solid #00a8ff
 }
